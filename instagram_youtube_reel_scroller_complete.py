@@ -9,9 +9,12 @@ import time
 
 mp_draw = mp.solutions.drawing_utils
 mp_hand = mp.solutions.hands
-# url='https://192.168.1.6:8080/video'
+# url='https://ip:8080/video'
 # phone nu ip address ane port number
+# use ipwebcam on ur phone
 video = cv2.VideoCapture(0)
+# video = cv2.VideoCapture(url)
+
 reel_scroll_delay = 0.5  
 # Adjust the delay between consecutive reel scrolls like jetli var detect thai etli vaar fraya na kare etla mate
 
